@@ -1,0 +1,28 @@
+#game-container {
+  position: relative;
+  width: 600;
+  height: 300px;
+  border: 1px solid black;
+}
+
+#player {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+#movement-log {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.monster {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  /* Pour un look circulaire */
+}
